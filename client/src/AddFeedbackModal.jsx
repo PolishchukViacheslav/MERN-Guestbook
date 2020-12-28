@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import { Button, Modal } from 'react-materialize';
 import { FeedbackForm } from './FeedbackForm';

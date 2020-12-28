@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-materialize';
 import { useHttp } from './hooks/httpHook';
@@ -68,7 +67,7 @@ export const FeedbackForm = ({ addNewFeedback }) => {
         <label htmlFor="message">tell us about your impressions</label>
       </div>
       <Button flat modal="close" type="submit" node="button" waves="green" disabled={loading}>Add</Button>
-      <Button flat modal="close" node="button" waves="red">Close</Button>
+      <Button flat modal="close" type="button" node="button" waves="red">Close</Button>
     </form>
   );
 };
